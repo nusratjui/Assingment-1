@@ -82,19 +82,18 @@ h1{
     padding: 15px;
     margin-left:2%; 
     border-radius: 5px;
+    background: rgb(243, 240, 240); 
+    text-align: center;
+    color: rgba(83, 78, 78, 0.904);   
+}
+.third{ 
+    padding: 15px;
+    margin-left:2%; 
+    border-radius: 5px;
     background: rgb(245, 204, 210); 
     text-align: center;
     border: solid rgba(231, 113, 148, 0.712);
     color: rgba(172, 51, 51, 0.904); 
-}
-.third{
-    
-    padding: 15px;
-    margin-left:2%; 
-    border-radius: 5px;
-    background: rgb(243, 240, 240); 
-    text-align: center;
-    color: rgba(83, 78, 78, 0.904); 
 }
 .fourth{
    
@@ -150,7 +149,7 @@ h1{
     color: rgb(128, 128, 128);
 }
 .shelter{
-    background-color: lightpink;
+    background-color: rgb(247, 234, 210);
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
@@ -208,6 +207,7 @@ h1{
 }
 .sample{
     color: rgb(128, 128, 128);
+    text-align: justify;
 }
 .last{
     padding: 70px 70px;
@@ -254,7 +254,45 @@ footer{
     color: white;
     font-size: 12px;
 }
+.item img{
+    width: 70%; 
+    height: 70%;
+    position: center;
     
+}
+.phone img{
+    width: 50%; 
+    height: 50%;
+    position: center;
+}
+.save{
+    color: rgb(128, 128, 128) ;
+}
+.item{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+.phone{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%; 
+} 
+.hotline{
+    text-align: center;
+    color: tomato;
+}
+#queries{
+    text-align: center;
+    color: rgb(128, 128, 128) ;
+}
+
+
+
     
 
 
